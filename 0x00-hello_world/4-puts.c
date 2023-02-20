@@ -1,4 +1,4 @@
-#include <stdio.h>ii
+#include <stdio.h>
 /**
  * main - print a string
  * Description: This is a description
