@@ -1,4 +1,10 @@
 #include <stdio.h>
+/**
+ * main - print a string
+ * Description: This is a description
+ *
+ * Return: Prints out something
+ */
 int main(void)
 {
 printf("Size of a char: %lu byte(s)\n", sizeof(char));
