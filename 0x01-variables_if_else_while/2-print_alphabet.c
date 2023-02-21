@@ -8,9 +8,9 @@
 int main(void)
 {
 	/* your code goes there */
-	for ( i=0; i <26;  i++) {
-	  putchar('a' + i)
+	for (int i=0; i <26;  i++) {
+	  putchar('a' + i);
 	}
-	putchar('\n')
+	putchar('\n');
 	return (0);
 }
