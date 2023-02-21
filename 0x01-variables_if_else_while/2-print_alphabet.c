@@ -8,7 +8,8 @@
 int main(void)
 {
 	/* your code goes there */
-	for (int i=0; i <26;  i++) {
+	int i
+	for (i=0; i <26;  i++) {
 	  putchar('a' + i);
 	}
 	putchar('\n');
