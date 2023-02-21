@@ -8,7 +8,7 @@
 int main(void)
 {
 	/* your code goes there */
-	int i
+	char i;
 	for (i=0; i <26;  i++) {
 	  putchar('a' + i);
 	}
