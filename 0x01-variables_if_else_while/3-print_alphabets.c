@@ -1,4 +1,4 @@
-#include <stdlib.h>
+#include <stdio.h>
 #include <time.h>
 /**
  * main - main block
@@ -8,11 +8,11 @@ int main(void)
 {
 	int i;
 	/* your code goes there */
-	for (i=0; i <26;  i++) {
-	  putchar('a' + i);
+	for (i='a'; i <'z' + 1;  i++) {
+	  putchar(i);
 	}
-	for (i=0; i <26;  i++) {
-          putchar('A' + i);
+	for (i='A'; i <'Z' + 1 ;  i++) {
+          putchar(i);
         }
 	putchar('\n');
 	return (0);
